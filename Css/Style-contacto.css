@@ -1,0 +1,100 @@
+h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+
+}
+hr{
+    height: 2px;
+    background-color: #000000;
+}
+
+nav li{
+   
+    margin: 0 0 0 15 px;
+    color: rgb(126, 80, 80);
+    display: inline;
+    padding: 20px;
+    margin: 0px;
+    list-style: none;
+}
+
+nav a{
+    color: rgb(0, 0, 0);
+    list-style: none;
+    text-decoration: none;
+ 
+   
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    list-style: none;
+    text-decoration: underline;
+   
+}
+
+
+
+iframe{
+    border: 0;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.info{
+    background-color: rgb(255, 215, 246);
+    margin:20px;
+    padding:20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.contacto{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: center;
+}
+
+.Telefono{
+    background-color: rgb(161, 245, 148);
+    border: 0px;
+    border-radius: 60px;
+    border-style:ridge;
+    margin: 30px;
+    padding: 40px;
+    width: 400px;
+   
+    text-align: center;
+
+
+}
+
+.Mail{
+    background-color: rgb(161, 245, 148);
+    border: 0px;
+    border-radius: 60px;
+    border-style:ridge;
+    margin: 30px;
+    padding: 40px;
+    width: 400px;
+
+    text-align: center;
+}
+
+
+
+footer a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20 px;
+    text-decoration: none;
+}
