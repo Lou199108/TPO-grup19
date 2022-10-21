@@ -41,26 +41,6 @@ h2{
     color:rgb(000, 000, 000);
 }
 
-#contenedor{
-    border: solid 2px black;
-    background-color:lightblue ;
-    padding: .5rem;
-    display: flex;
-    flex-wrap:wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-}
-
-.item{
-    padding: .5rem;
-    margin: .5rem;
-    width: auto;
-    height: auto;
-    text-align: center;
-}
-
 footer a{
     text-transform: uppercase;
     color: #000000;
