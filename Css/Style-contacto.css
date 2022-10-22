@@ -59,7 +59,6 @@ iframe{
 .contacto{
     display: flex;
     flex-direction: row;
-   
     justify-content: center;
 }
 
@@ -71,9 +70,35 @@ iframe{
     margin: 30px;
     padding: 40px;
     width: 400px;
-   
     text-align: center;
 
+
+}
+
+.Telefono:hover{
+    background-color: rgb(161, 245, 148);
+    border: 0px;
+    border-radius: 60px;
+    border-style:ridge;
+    margin: 30px;
+    padding: 40px;
+    width: 400px;
+    transform: scale(1.1);
+    text-align: center;
+
+
+}
+
+.Mail:hover{
+    background-color: rgb(161, 245, 148);
+    border: 0px;
+    border-radius: 60px;
+    border-style:ridge;
+    margin: 30px;
+    padding: 40px;
+    width: 400px;
+    text-align: center;
+    transform: scale(1.1);
 
 }
 
@@ -85,7 +110,6 @@ iframe{
     margin: 30px;
     padding: 40px;
     width: 400px;
-
     text-align: center;
 }
 
