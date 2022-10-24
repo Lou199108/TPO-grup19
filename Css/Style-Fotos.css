@@ -44,6 +44,11 @@ h2{
     color:rgb(000, 000, 000);
 }
 
+.carrousel{
+    margin: 50px;
+    padding: 50px;
+}
+
 footer a{
     text-transform: uppercase;
     color: #000000;
