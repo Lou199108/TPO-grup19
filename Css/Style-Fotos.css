@@ -2,9 +2,8 @@ h1{
     justify-content: center;
     align-items: center;
     display: flex;
-   
-
 }
+
 hr{
     height: 2px;
     background-color: #000000;
@@ -23,14 +22,12 @@ nav a{
     color: rgb(0, 0, 0);
     list-style: none;
     text-decoration: none;
- 
 }
 
 a:hover{
     color: rgb(0, 0, 0);
     list-style: none;
     text-decoration: underline;
-   
 }
 
 h2{
@@ -49,10 +46,15 @@ h2{
     padding: 50px;
 }
 
+footer{
+    background-color:rgb(170, 255, 162);
+    text-align:center;
+}
+
 footer a{
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
-    font-size: 20 px;
+    font-size: 40 px;
     text-decoration: none;
 }

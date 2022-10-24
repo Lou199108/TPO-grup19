@@ -8,8 +8,6 @@ h1{
     justify-content: center;
     align-items: center;
     display: flex;
-   
-
 }
 
 hr{
@@ -17,34 +15,24 @@ hr{
     background-color: #000000;
 }
 
-
-
 nav li{
- 
-    
     color: rgb(126, 80, 80);
     display: inline;
     padding: 20px;
     margin: 0px;
     list-style: none;
-   
 }
 
 nav a{
-
-    
     color: rgb(0, 0, 0);
     list-style: none;
-    text-decoration: none;
-  
- 
-   
+    text-decoration: none;   
 }
+
 a:hover{
     color: rgb(0, 0, 0);
     list-style: none;
     text-decoration: underline;
-   
 }
 
 article{
@@ -55,10 +43,7 @@ article{
     border: 0;
     font-family: "Roboto";
     font-size: 80 px;
-    
     line-height: 30px;
-    
-
 }
 
 @media (max-width:560px){
@@ -100,22 +85,21 @@ article{
     article{
         background-color: rgb(230, 249, 218);
         text-align: center;
- 
-        
         font-family: "Roboto";
         font-size: 60 px;
-        
         line-height: 30px;
-        
-    
     }
+}
 
+footer{
+    background-color:rgb(170, 255, 162);
+    text-align:center;
 }
 
 footer a{
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
-    font-size: 20 px;
-    text-decoration: none;
-}
+    font-size: 40 px;
+    text-decoration: none; 
+} 
