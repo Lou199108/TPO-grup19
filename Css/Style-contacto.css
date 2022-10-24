@@ -38,6 +38,18 @@ iframe{
     align-items: center;
 }
 
+section p{
+    background-color:rgb(161, 245, 148);
+    border: 0px;
+    border-radius: 60px;
+    border-style:ridge;
+    margin: 30px;
+    padding: 40px;
+    width: 400px;
+    text-align: left;
+    font-size: 20 px;
+}
+
 .info{
     background-color: rgb(255, 215, 246);
     margin:20px;
