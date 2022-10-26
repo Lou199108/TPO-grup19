@@ -18,9 +18,6 @@
         <img  src="./img/WhatsApp Image 2022-10-16 at 9.39.50 PM.jpeg" alt="">
     </h1>
 
-    <h2>Hola</h2>
-
-
     <hr>
     <br>
     
@@ -35,7 +32,68 @@
    
     <br>
     <hr><br>
+    
+    <div class="info-form">
+        <h2>Contacto</h2>
+        <h3> <br> Dejanos tu mensaje para enterarte de nuestras proximas obras.</h3>
+     </div>
 
+     
+    <form action="" method="get">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="name">Nombre</label><br>
+            <input type="text" name="name" id="name">
+
+            <br>
+
+            <label for="lastname">Apellido</label><br>
+            <input type="text" name="lastname" id="lastname">
+
+            <br>
+
+            <label for="age">Edad</label><br>
+            <select age="Edad">
+                  <option>Menor de 18 años</option>
+                  <option>18 a 25 años</option>
+                  <option>26 a 35 años</option>
+                  <option>Mas de 35 años</option>
+                </select>
+
+                <br>
+
+                <label for="genre">Sexo</label>
+            <input type="radio" value="Femenino" name="genre"> Femenino
+            <input type="radio" value="Masculino" name="genre"> Masculino
+            <input type="radio" value="Otro" name="genre" checked> Otro
+
+            <br>
+
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" id="email">
+
+        </fieldset>
+ 
+ 
+        <fieldset>
+            <legend>Asunto</legend>
+
+            <p>
+                <select name="Asunto">
+                  <option>Quiero recibir información</option>
+                  <option>Tengo un comentario sobre una obra</option>
+                  <option>Tengo una sugerencia</option>
+                </select>
+ 
+            <label for="Message">Mensaje</label>
+            <textarea name="comments" id="comments" cols="10" rows="5" maxlength="300"></textarea>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+
+    </form>
     
     <section >
         <p>Donde estamos:<br>
