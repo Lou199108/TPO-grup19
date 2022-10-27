@@ -48,6 +48,8 @@ section p{
     width: 400px;
     text-align: left;
     font-size: 20 px;
+    justify-content: center;
+    align-items: center;
 }
 
 .info{
@@ -124,4 +126,27 @@ footer a{
     font-weight: bold;
     font-size: 40 px;
     text-decoration: none;
+}
+
+.info-form{
+    background-color: rgb(161, 245, 148);
+    border: 0px;
+    border-radius: 30px;
+    border-style:ridge;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.formulario{
+
+    background-color: #d5eaff;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 10px;
+    border-style:ridge;
 }
