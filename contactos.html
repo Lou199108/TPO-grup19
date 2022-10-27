@@ -37,39 +37,41 @@
         <h2> <br> Dejanos tu mensaje para enterarte de nuestras próximas obras.</h2>
      </div>
 
-    <form action="" method="get">
+    <form name="fvalida" action="" method="get">
         <fieldset>
             <legend>Datos personales</legend>
-            <label for="name">Nombre</label><br>
-            <input type="text" name="name" id="name">
+            <label for="name">Nombre: </label><br>
+            <input type="text" name="nombre" id="name" size="30" maxlength="100" placeholder="Nombre">
 
-            <br>
+            <br><br>
 
-            <label for="lastname">Apellido</label><br>
-            <input type="text" name="lastname" id="lastname">
+           <label for="lastname">Apellido: </label><br>
+            <input type="text" name="apellido" id="lastname" size="30" maxlength="100" placeholder="Apellido">
 
-            <br>
+            <br><br> 
 
             <label for="age">Edad</label><br>
-            <select age="Edad">
-                  <option>Menor de 18 años</option>
-                  <option>18 a 25 años</option>
-                  <option>26 a 35 años</option>
-                  <option>Mas de 35 años</option>
+            <select name="edad" age="Edad">
+                  <option value="-18">Menor de 18 años</option>
+                  <option value="18-25">18 a 25 años</option>
+                  <option value="26-35">26 a 35 años</option>
+                  <option value="+35">Mas de 35 años</option>
                 </select>
 
-                <br>
+                <br><br>
 
                 <label for="genre">Sexo</label>
-            <input type="radio" value="Femenino" name="genre"> Femenino
-            <input type="radio" value="Masculino" name="genre"> Masculino
-            <input type="radio" value="Otro" name="genre" checked> Otro
+            <input type="radio" value="Femenino" name="genero"> Femenino
+            <input type="radio" value="Masculino" name="genero"> Masculino
+            <input type="radio" value="Otro" name="genero"> Otro
 
+            <br>
             <br>
 
             <label for="email">Email</label>
             <br>
-            <input type="email" name="email" id="email">
+            
+            <input type="email" name="mail" id="email" size="30" maxlength="100" placeholder="Mail">
 
         </fieldset>
  
@@ -85,10 +87,14 @@
                 </select>
  
             <label for="Message">Mensaje</label>
-            <textarea name="comments" id="comments" cols="10" rows="5" maxlength="300"></textarea>
+            <table>
+                <tr>
+                    <textarea name="comentario" id="comments" cols="50" rows="9" maxlength="300" placeholder="Escribir aquí"></textarea>
+                </tr>
+           </table>
         </fieldset>
 
-        <button id="btnAlert" type="submit">Enviar</button>
+        <input type="button" value="Enviar" onclick="valida_envia()">
         <button type="reset">Borrar</button>
 
     </form>
